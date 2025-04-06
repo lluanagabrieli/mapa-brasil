@@ -8,11 +8,11 @@ Projeto utilizando a biblioteca JavaScript [Leaflet](https://leafletjs.com/downl
 
 ## Para rodar o projeto
 - Abra o projeto e no terminal instale o gerenciador de pacotes npm (Node Package Manager) com o comando `npm install`
-- Rode o projeto com o comandp `ng s --o`
+- Rode o projeto com o comando `ng s --o`
 
 ## Como utilizar o Leaflet
 - Para utilizar o Leaflet em seu projeto, faça a instalação através do comando `npm install leaflet`
-- Adicione o arquivo de estilos do Leaflet: 
+- Adicione o arquivo de estilos do Leaflet no angular.json: 
 
 ```json
 "styles": [
