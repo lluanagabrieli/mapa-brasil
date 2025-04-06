@@ -27,5 +27,13 @@ import * as L from 'leaflet';
 - Adicionar no html do componente, o elemento com o id 'map' para renderizar o mapa:
 
 ```html
-<div id="map" style="height: 500px;"></div>
+<div id="map" class="mapa"></div>
+```
+- Opcional: adicionar estilos css. No meu projeto, foi adicionado uma altura e largura fixas.
+
+```css
+.mapa {
+  height: 500px;
+  width: 500px;
+}
 ```
