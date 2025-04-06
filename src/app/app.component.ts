@@ -1,3 +1,4 @@
+import { RouterOutlet } from '@angular/router';
 import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
 
