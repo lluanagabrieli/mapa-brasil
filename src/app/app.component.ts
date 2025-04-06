@@ -1,4 +1,3 @@
-import { RouterOutlet } from '@angular/router';
 import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
 
@@ -9,7 +8,7 @@ type Estados = {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
